@@ -15,7 +15,8 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rjdududu:zzxxzzxx@cluster0.hy2lw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
@@ -36,15 +37,19 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/WCGKING/BrandrdXMusic",
+    "https://github.com/anarolyt/BrandrdXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/P_6_B")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/cecrr")
+CHANNEL_SUDO = getenv("CHANNEL_SUDO", "ceccr")
+YAFA_NAME = getenv("YAFA_NAME", "اضغط هنا للاشتراك")
+YAFA_CHANNEL = getenv("YAFA_CHANNEL", "https://t.me/cecrr")
+OWNER_CHANNEL = getenv("OWNER_CHANNEL", "https://t.me/y_o_v")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
