@@ -14,37 +14,37 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "8186557",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "efd77b34c69c164ce158037ff5a0d117",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6557180879:AAF0fYZUJVhSgB0ZbtyvLCEo5Krkh0gCWUk",
         "required": true
       },
-      "MONGO_DB_URI": {
+      "YAFA_CHANNEL": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "value": "https://t.me/cecrr",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "6094238403",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @BRANDEDSTRINGSESSION_BOT on Telegram.",
-        "value": "",
+        "value": "BACtVbEAa4Oxv-ZPeukEg_kjo2dw_4LoCWa7QK12cNE71O-lPSESgl-LS9Ql0kKFJUCjNv-J7QUDX2RS9WKoNUWqJs_YhD88NugeK1K5RNl2N9tSOScoJaA_S8_jcYNitLMDOjHNMOf85D55u5mKOwcSVHAgVvDbdHBwer8tijvWOX9LKLQ3kFPsEAaMrWtvTwiJh3iAGlYt6mY9aOKg8NzwSng_tDktUKy8oD_CpJCi0y1SOR3-v1XdXQ8tsaBenGxxGyPEsYXS2C6ZMPzCDzDOHf9Wrm8g6rTFk8iCPt3400FbwxTb8d7q0_obqoA_6O2ucXV1po5Hz2s_KpfhB0zLwIpECQAAAAGqfwr9AA",
         "required": true
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "",
+        "value": "HRKU-d55d5bde-0d47-4235-b30e-0c678f1a1014",
         "required": false
       },
       "HEROKU_APP_NAME": {
@@ -59,12 +59,12 @@
       },
       "AUTO_GCAST_MSG": {
         "description": "Fill here auto broadcast message which will be auto broadcast twice in a day. ( any type of message you can copy and paste here )",
-        "value": "",
+        "value": "10",
         "required": false
       }, 
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
-        "value": "",
+        "value": "-1002011258224",
         "required": true
       }
     },
@@ -80,4 +80,4 @@
           }
       ],
       "stack": "container"
-  }
+}
